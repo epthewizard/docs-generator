@@ -1,0 +1,404 @@
+{
+  "packages": [
+    {
+      "name": "sqlmodel",
+      "url": "https://sqlmodel.tiangolo.com",
+      "method": "wget",
+      "file_count": 65,
+      "files": [
+        {
+          "path": "about/index.md",
+          "title": "[ Skip to content ](index.html#about)",
+          "url": "https://sqlmodel.tiangolo.com/about/",
+          "file": "sqlmodel/markdown/about/index.md"
+        },
+        {
+          "path": "advanced/decimal/index.md",
+          "title": "[ Skip to content ](index.html#decimal-numbers)",
+          "url": "https://sqlmodel.tiangolo.com/advanced/decimal/",
+          "file": "sqlmodel/markdown/advanced/decimal/index.md"
+        },
+        {
+          "path": "advanced/index.md",
+          "title": "[ Skip to content ](index.html#advanced-user-guide)",
+          "url": "https://sqlmodel.tiangolo.com/advanced/",
+          "file": "sqlmodel/markdown/advanced/index.md"
+        },
+        {
+          "path": "advanced/uuid/index.md",
+          "title": "[ Skip to content ](index.html#uuid-universally-unique-identifiers)",
+          "url": "https://sqlmodel.tiangolo.com/advanced/uuid/",
+          "file": "sqlmodel/markdown/advanced/uuid/index.md"
+        },
+        {
+          "path": "all-docs.md",
+          "title": "",
+          "url": "https://sqlmodel.tiangolo.com/all-docs/",
+          "file": "sqlmodel/markdown/all-docs.md"
+        },
+        {
+          "path": "alternatives/index.md",
+          "title": "[ Skip to content ](index.html#alternatives-inspiration-and-comparisons)",
+          "url": "https://sqlmodel.tiangolo.com/alternatives/",
+          "file": "sqlmodel/markdown/alternatives/index.md"
+        },
+        {
+          "path": "contributing/index.md",
+          "title": "[ Skip to content ](index.html#contributing)",
+          "url": "https://sqlmodel.tiangolo.com/contributing/",
+          "file": "sqlmodel/markdown/contributing/index.md"
+        },
+        {
+          "path": "databases/index.md",
+          "title": "[ Skip to content ](index.html#intro-to-databases)",
+          "url": "https://sqlmodel.tiangolo.com/databases/",
+          "file": "sqlmodel/markdown/databases/index.md"
+        },
+        {
+          "path": "db-to-code/index.md",
+          "title": "[ Skip to content ](index.html#database-to-code-orms)",
+          "url": "https://sqlmodel.tiangolo.com/db-to-code/",
+          "file": "sqlmodel/markdown/db-to-code/index.md"
+        },
+        {
+          "path": "environment-variables/index.md",
+          "title": "[ Skip to content ](index.html#environment-variables)",
+          "url": "https://sqlmodel.tiangolo.com/environment-variables/",
+          "file": "sqlmodel/markdown/environment-variables/index.md"
+        },
+        {
+          "path": "features/index.md",
+          "title": "[ Skip to content ](index.html#features)",
+          "url": "https://sqlmodel.tiangolo.com/features/",
+          "file": "sqlmodel/markdown/features/index.md"
+        },
+        {
+          "path": "help/index.md",
+          "title": "[ Skip to content ](index.html#help-sqlmodel-get-help)",
+          "url": "https://sqlmodel.tiangolo.com/help/",
+          "file": "sqlmodel/markdown/help/index.md"
+        },
+        {
+          "path": "index.md",
+          "title": "[ Skip to content ](index.html#sponsors)",
+          "url": "https://sqlmodel.tiangolo.com/index/",
+          "file": "sqlmodel/markdown/index.md"
+        },
+        {
+          "path": "install/index.md",
+          "title": "[ Skip to content ](index.html#install-sqlmodel)",
+          "url": "https://sqlmodel.tiangolo.com/install/",
+          "file": "sqlmodel/markdown/install/index.md"
+        },
+        {
+          "path": "learn/index.md",
+          "title": "[ Skip to content ](index.html#learn)",
+          "url": "https://sqlmodel.tiangolo.com/learn/",
+          "file": "sqlmodel/markdown/learn/index.md"
+        },
+        {
+          "path": "management-tasks/index.md",
+          "title": "[ Skip to content ](index.html#repository-management-tasks)",
+          "url": "https://sqlmodel.tiangolo.com/management-tasks/",
+          "file": "sqlmodel/markdown/management-tasks/index.md"
+        },
+        {
+          "path": "management/index.md",
+          "title": "[ Skip to content ](index.html#repository-management)",
+          "url": "https://sqlmodel.tiangolo.com/management/",
+          "file": "sqlmodel/markdown/management/index.md"
+        },
+        {
+          "path": "release-notes/index.md",
+          "title": "[ Skip to content ](index.html#release-notes)",
+          "url": "https://sqlmodel.tiangolo.com/release-notes/",
+          "file": "sqlmodel/markdown/release-notes/index.md"
+        },
+        {
+          "path": "resources/index.md",
+          "title": "[ Skip to content ](index.html#resources)",
+          "url": "https://sqlmodel.tiangolo.com/resources/",
+          "file": "sqlmodel/markdown/resources/index.md"
+        },
+        {
+          "path": "tutorial/automatic-id-none-refresh/index.md",
+          "title": "[ Skip to content ](index.html#automatic-ids-none-defaults-and-refreshing-",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/automatic-id-none-refresh/",
+          "file": "sqlmodel/markdown/tutorial/automatic-id-none-refresh/index.md"
+        },
+        {
+          "path": "tutorial/code-structure/index.md",
+          "title": "[ Skip to content ](index.html#code-structure-and-multiple-files)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/code-structure/",
+          "file": "sqlmodel/markdown/tutorial/code-structure/index.md"
+        },
+        {
+          "path": "tutorial/connect/create-connected-rows/index.md",
+          "title": "[ Skip to content ](index.html#create-and-connect-rows)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/connect/create-connected-rows/",
+          "file": "sqlmodel/markdown/tutorial/connect/create-connected-rows/index.md"
+        },
+        {
+          "path": "tutorial/connect/create-connected-tables/index.md",
+          "title": "[ Skip to content ](index.html#create-connected-tables)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/connect/create-connected-tables/",
+          "file": "sqlmodel/markdown/tutorial/connect/create-connected-tables/index.md"
+        },
+        {
+          "path": "tutorial/connect/index.md",
+          "title": "[ Skip to content ](index.html#connect-tables-join-intro)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/connect/",
+          "file": "sqlmodel/markdown/tutorial/connect/index.md"
+        },
+        {
+          "path": "tutorial/connect/read-connected-data/index.md",
+          "title": "[ Skip to content ](index.html#read-connected-data)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/connect/read-connected-data/",
+          "file": "sqlmodel/markdown/tutorial/connect/read-connected-data/index.md"
+        },
+        {
+          "path": "tutorial/connect/remove-data-connections/index.md",
+          "title": "[ Skip to content ](index.html#remove-data-connections)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/connect/remove-data-connections/",
+          "file": "sqlmodel/markdown/tutorial/connect/remove-data-connections/index.md"
+        },
+        {
+          "path": "tutorial/connect/update-data-connections/index.md",
+          "title": "[ Skip to content ](index.html#update-data-connections)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/connect/update-data-connections/",
+          "file": "sqlmodel/markdown/tutorial/connect/update-data-connections/index.md"
+        },
+        {
+          "path": "tutorial/create-db-and-table-with-db-browser/index.md",
+          "title": "[ Skip to content ](index.html#create-a-table-with-sql)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/create-db-and-table-with-db-browser/",
+          "file": "sqlmodel/markdown/tutorial/create-db-and-table-with-db-browser/index.md"
+        },
+        {
+          "path": "tutorial/create-db-and-table/index.md",
+          "title": "[ Skip to content ](index.html#create-a-table-with-sqlmodel-use-the-engine)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/create-db-and-table/",
+          "file": "sqlmodel/markdown/tutorial/create-db-and-table/index.md"
+        },
+        {
+          "path": "tutorial/delete/index.md",
+          "title": "[ Skip to content ](index.html#delete-data-delete)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/delete/",
+          "file": "sqlmodel/markdown/tutorial/delete/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/delete/index.md",
+          "title": "[ Skip to content ](index.html#delete-data-with-fastapi)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/delete/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/delete/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/index.md",
+          "title": "[ Skip to content ](index.html#fastapi-and-pydantic-intro)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/limit-and-offset/index.md",
+          "title": "[ Skip to content ](index.html#read-heroes-with-limit-and-offset-with-fastapi)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/limit-and-offset/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/limit-and-offset/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/multiple-models/index.md",
+          "title": "[ Skip to content ](index.html#multiple-models-with-fastapi)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/multiple-models/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/multiple-models/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/read-one/index.md",
+          "title": "[ Skip to content ](index.html#read-one-model-with-fastapi)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/read-one/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/read-one/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/relationships/index.md",
+          "title": "[ Skip to content ](index.html#models-with-relationships-in-fastapi)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/relationships/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/relationships/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/response-model/index.md",
+          "title": "[ Skip to content ](index.html#fastapi-response-model-with-sqlmodel)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/response-model/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/response-model/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/session-with-dependency/index.md",
+          "title": "[ Skip to content ](index.html#session-with-fastapi-dependency)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/session-with-dependency/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/session-with-dependency/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/simple-hero-api/index.md",
+          "title": "[ Skip to content ](index.html#simple-hero-api-with-fastapi)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/simple-hero-api/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/simple-hero-api/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/teams/index.md",
+          "title": "[ Skip to content ](index.html#fastapi-path-operations-for-teams-other-models)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/teams/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/teams/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/tests/index.md",
+          "title": "[ Skip to content ](index.html#test-applications-with-fastapi-and-sqlmodel)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/tests/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/tests/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/update-extra-data/index.md",
+          "title": "[ Skip to content ](index.html#update-with-extra-data-hashed-passwords-with-",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/update-extra-data/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/update-extra-data/index.md"
+        },
+        {
+          "path": "tutorial/fastapi/update/index.md",
+          "title": "[ Skip to content ](index.html#update-data-with-fastapi)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/fastapi/update/",
+          "file": "sqlmodel/markdown/tutorial/fastapi/update/index.md"
+        },
+        {
+          "path": "tutorial/index.md",
+          "title": "[ Skip to content ](index.html#tutorial-user-guide)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/",
+          "file": "sqlmodel/markdown/tutorial/index.md"
+        },
+        {
+          "path": "tutorial/indexes/index.md",
+          "title": "[ Skip to content ](index.html#indexes-optimize-queries)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/indexes/",
+          "file": "sqlmodel/markdown/tutorial/indexes/index.md"
+        },
+        {
+          "path": "tutorial/insert/index.md",
+          "title": "[ Skip to content ](index.html#create-rows-use-the-session-insert)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/insert/",
+          "file": "sqlmodel/markdown/tutorial/insert/index.md"
+        },
+        {
+          "path": "tutorial/limit-and-offset/index.md",
+          "title": "[ Skip to content ](index.html#read-a-range-of-data-limit-and-offset)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/",
+          "file": "sqlmodel/markdown/tutorial/limit-and-offset/index.md"
+        },
+        {
+          "path": "tutorial/many-to-many/create-data/index.md",
+          "title": "[ Skip to content ](index.html#create-data-with-many-to-many-relationships)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/many-to-many/create-data/",
+          "file": "sqlmodel/markdown/tutorial/many-to-many/create-data/index.md"
+        },
+        {
+          "path": "tutorial/many-to-many/create-models-with-link/index.md",
+          "title": "[ Skip to content ](index.html#create-models-with-a-many-to-many-link)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/many-to-many/create-models-with-link/",
+          "file": "sqlmodel/markdown/tutorial/many-to-many/create-models-with-link/index.md"
+        },
+        {
+          "path": "tutorial/many-to-many/index.md",
+          "title": "[ Skip to content ](index.html#many-to-many-intro)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/many-to-many/",
+          "file": "sqlmodel/markdown/tutorial/many-to-many/index.md"
+        },
+        {
+          "path": "tutorial/many-to-many/link-with-extra-fields/index.md",
+          "title": "[ Skip to content ](index.html#link-model-with-extra-fields)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/many-to-many/link-with-extra-fields/",
+          "file": "sqlmodel/markdown/tutorial/many-to-many/link-with-extra-fields/index.md"
+        },
+        {
+          "path": "tutorial/many-to-many/update-remove-relationships/index.md",
+          "title": "[ Skip to content ](index.html#update-and-remove-many-to-many-relationships)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/many-to-many/update-remove-relationships/",
+          "file": "sqlmodel/markdown/tutorial/many-to-many/update-remove-relationships/index.md"
+        },
+        {
+          "path": "tutorial/one/index.md",
+          "title": "[ Skip to content ](index.html#read-one-row)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/one/",
+          "file": "sqlmodel/markdown/tutorial/one/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/back-populates/index.md",
+          "title": "[ Skip to content ](index.html#relationship-back_populates)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/back-populates/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/back-populates/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/cascade-delete-relationships/index.md",
+          "title": "[ Skip to content ](index.html#cascade-delete-relationships)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/cascade-delete-relationships/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/cascade-delete-relationships/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/create-and-update-relationships/index.md",
+          "title": "[ Skip to content ](index.html#create-and-update-relationships)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/create-and-update-relationships/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/create-and-update-relationships/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/define-relationships-attributes/index.md",
+          "title": "[ Skip to content ](index.html#define-relationships-attributes)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/define-relationships-attributes/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/define-relationships-attributes/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/index.md",
+          "title": "[ Skip to content ](index.html#relationship-attributes-intro)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/read-relationships/index.md",
+          "title": "[ Skip to content ](index.html#read-relationships)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/read-relationships/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/read-relationships/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/remove-relationships/index.md",
+          "title": "[ Skip to content ](index.html#remove-relationships)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/remove-relationships/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/remove-relationships/index.md"
+        },
+        {
+          "path": "tutorial/relationship-attributes/type-annotation-strings/index.md",
+          "title": "[ Skip to content ](index.html#about-the-string-in-listhero)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/type-annotation-strings/",
+          "file": "sqlmodel/markdown/tutorial/relationship-attributes/type-annotation-strings/index.md"
+        },
+        {
+          "path": "tutorial/select/index.md",
+          "title": "[ Skip to content ](index.html#read-data-select)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/select/",
+          "file": "sqlmodel/markdown/tutorial/select/index.md"
+        },
+        {
+          "path": "tutorial/update/index.md",
+          "title": "[ Skip to content ](index.html#update-data-update)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/update/",
+          "file": "sqlmodel/markdown/tutorial/update/index.md"
+        },
+        {
+          "path": "tutorial/where/index.md",
+          "title": "[ Skip to content ](index.html#filter-data-where)",
+          "url": "https://sqlmodel.tiangolo.com/tutorial/where/",
+          "file": "sqlmodel/markdown/tutorial/where/index.md"
+        },
+        {
+          "path": "virtual-environments/index.md",
+          "title": "[ Skip to content ](index.html#virtual-environments)",
+          "url": "https://sqlmodel.tiangolo.com/virtual-environments/",
+          "file": "sqlmodel/markdown/virtual-environments/index.md"
+        }
+      ],
+      "local_raw": "sqlmodel/raw",
+      "raw_index": "index.html"
+    }
+  ]
+}

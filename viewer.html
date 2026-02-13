@@ -359,7 +359,7 @@
 <body>
   <header>
     <div class="logo">dev<span>-</span>docs</div>
-    <div class="server-hint">serve with: <code>python3.14 -m http.server 8080</code></div>
+    <div class="server-hint">serve with: <code>python3 -m http.server 8080</code></div>
   </header>
 
   <div class="layout">
@@ -481,7 +481,7 @@
         <div class="state-icon">⚠️</div>
         <div class="state-title">Could not load docs</div>
         <div class="state-sub">
-          Make sure you're running <code>python3.14 -m http.server 8080</code>
+          Make sure you're running <code>python3 -m http.server 8080</code>
           from the same folder as this viewer, and that the package downloaded successfully.
         </div>
       </div>`;
@@ -489,9 +489,11 @@
 
   function renderCopilot(pkg) {
     document.getElementById('copilot-panel').style.display = 'block';
+
+    // Get file list from new manifest structure
     const files = pkg.method === 'llms.txt'
-      ? [pkg.local_markdown + '/all-docs.md']
-      : (pkg.markdown_files || []);
+      ? [pkg.name + '/markdown/all-docs.md']
+      : (pkg.files || []).map(f => f.file);
 
     const snippet = {
       "github.copilot.chat.codeGeneration.instructions": files.map(f => ({ file: f }))

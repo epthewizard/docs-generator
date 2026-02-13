@@ -1,65 +1,39 @@
 # docs-generator
 
-Download documentation from any website and convert it to markdown for viewing or feeding to LLMs.
+Download documentation, convert to markdown, and feed to AI on demand.
 
-## Quick Start
-
-### 1. Download Documentation
+## Usage
 
 ```bash
-./download-docs.sh <package-name> <docs-url>
+# Download docs
+./docs.sh download sqlmodel https://sqlmodel.tiangolo.com/
+
+# List all available docs
+./docs.sh list sqlmodel
+
+# Fetch specific doc by keyword
+./docs.sh fetch sqlmodel "many-to-many"
+
+# Export all markdown (for AI consumption)
+./docs.sh export sqlmodel | pbcopy
 ```
 
-Examples:
+## View in Browser
+
 ```bash
-./download-docs.sh fastapi https://fastapi.tiangolo.com/
-./download-docs.sh pydantic https://docs.pydantic.dev/latest/
+python3 -m http.server 8080
+# Open http://localhost:8080/viewer.html
 ```
-
-### 2. View Documentation
-
-Start a local server:
-```bash
-python3.14 -m http.server 8080
-```
-
-Open in browser:
-```
-http://localhost:8080/viewer.html
-```
-
-### 3. Export for LLM
-
-Get all markdown content:
-```bash
-./export-for-ai.sh <package-name>
-```
-
-Examples:
-```bash
-# Print to terminal
-./export-for-ai.sh fastapi
-
-# Save to file
-./export-for-ai.sh fastapi fastapi-docs.md
-
-# Copy to clipboard (macOS)
-./export-for-ai.sh fastapi | pbcopy
-
-# Copy to clipboard (Linux)
-./export-for-ai.sh fastapi | xclip -selection clipboard
-```
-
-## Requirements
-
-- `python3.14` with `html2text` package (auto-installed)
-- `wget` (auto-installed via brew on macOS if missing)
 
 ## How It Works
 
-The downloader tries two methods:
-1. **llms.txt**: Checks if the site has a single-file LLM-optimized format
-2. **Web crawling**: Falls back to crawling with `wget` and converting HTML to markdown
+- Downloads docs via `llms.txt` if available, otherwise crawls with `wget`
+- Converts HTML to markdown
+- Stores metadata (paths, titles, URLs) in `manifest.json`
+- All commands read from `manifest.json` for fast lookups
 
-All documentation is saved as markdown in `<package-name>/markdown/`.
+## Requirements
+
+- `python3` with `html2text` (auto-installed)
+- `wget` (auto-installed on macOS if missing)
 # docs-generator
